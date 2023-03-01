@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+	char a[20];
+	int b;
+	double c;
+
+	printf("이름 입력:");
+	scanf("%s", a);
+	printf("나이와 키(cm)입력 : ");
+	scanf("%d %lf", &b, &c);
+	printf("%s, %d살, %.1lf", a, b, c);
+
+	return 0;
+
+
+}

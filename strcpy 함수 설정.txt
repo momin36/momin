@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+
+{
+	char a[20] = "strawberry";
+
+	printf("딸기 : %s\n", a);
+	printf("딸기쨈 : %s %s\n", a, "jam");
+	
+	strcpy(a, "banana");
+	printf("좋아하는 과일 : %s \n", a);
+
+
+	return 0;
+
+}
